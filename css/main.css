@@ -32,4 +32,16 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  width: 1110px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-wrap {
+  background: url("/images/hero-bg.jpg");
+  max-width: 1920px;
+  height: 900px;
 }/*# sourceMappingURL=main.css.map */

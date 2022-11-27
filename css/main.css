@@ -63,14 +63,20 @@ body {
 }
 
 .header {
-  background-color: aquamarine;
+  border: 1px solid rgba(161, 161, 161, 0.5);
+}
+
+.header-wrap {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .menu {
   display: flex;
   justify-content: flex-end;
   gap: 40px;
-  background-color: aquamarine;
 }
 
 .menu-item {
@@ -101,13 +107,9 @@ body {
   color: #ffffff;
 }
 
-.hero {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/hero-bg.jpg");
-  background-repeat: no-repeat;
-}
-
 .hero-content {
-  padding: 220px 335px 545px;
+  padding-top: 220px;
+  padding-bottom: 335px;
 }
 
 .hero-text {
@@ -119,12 +121,14 @@ body {
 }
 
 .hero-title {
-  margin-bottom: 50px;
   max-width: 829px;
   font-weight: 700;
   font-size: 48px;
   line-height: 1.33;
   color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .hero-btn {

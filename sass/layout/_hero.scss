@@ -1,10 +1,13 @@
-.hero {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/hero-bg.jpg");
-  background-repeat: no-repeat;
-}
+// .hero {
+//   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/hero-bg.jpg");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   background-position: center;
+// }
 
 .hero-content {
-  padding: 220px 335px 545px;
+  padding-top: 220px;
+  padding-bottom: 335px;
 }
 .hero-text {
   margin-bottom: 20px;
@@ -15,12 +18,14 @@
 }
 
 .hero-title {
-  margin-bottom: 50px;
   max-width: 829px;
   font-weight: 700;
   font-size: 48px;
   line-height: 1.33;
   color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .hero-btn {

@@ -72,6 +72,7 @@ body {
   background-size: cover;
   max-width: 1920px;
   height: 670px;
+  margin-bottom: 110px;
 }
 
 .menu {
@@ -90,8 +91,8 @@ body {
   font-size: 16px;
   line-height: 1.25;
   color: #ffffff;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .current {
@@ -109,8 +110,7 @@ body {
 }
 
 .hero-content {
-  padding-top: 120px;
-  padding-bottom: 335px;
+  padding-top: 110px;
 }
 
 .hero-text {
@@ -122,6 +122,7 @@ body {
 }
 
 .hero-title {
+  font-family: "Montserrat-700", sans-serif;
   max-width: 829px;
   font-weight: 700;
   font-size: 48px;
@@ -144,4 +145,13 @@ body {
   background: #4985ff;
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
+}
+
+.services-title {
+  font-family: "Montserrat-700", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+  color: #323232;
 }/*# sourceMappingURL=main.css.map */

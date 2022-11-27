@@ -5,4 +5,55 @@
   line-height: 1.47;
   text-align: center;
   color: #323232;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 739px;
+}
+
+.services-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #999999;
+  width: 730px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 55px;
+}
+
+.services-item-subtitle {
+  font-family: "Montserrat-600", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+}
+
+.services-item-text {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #999999;
+  width: 222px;
+}
+
+.services-btn {
+  font-family: "Montserrat-500", sans-serif;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #ffffff;
+  width: 200px;
+  padding: 15px 36px;
+  margin: 0 auto;
+  background-color: #4985ff;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
 }

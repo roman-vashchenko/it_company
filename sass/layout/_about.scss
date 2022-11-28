@@ -49,9 +49,14 @@
 
 .our-projects-item {
   & > span {
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 36px;
     line-height: 1.47;
     color: #000000;
+  }
+  & > span svg {
+    margin-right: 20px;
   }
 }

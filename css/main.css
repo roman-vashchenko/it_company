@@ -73,7 +73,6 @@ body {
   background-position: center;
   max-width: 1920px;
   height: 675px;
-  margin-bottom: 110px;
 }
 
 .menu {
@@ -150,6 +149,11 @@ body {
 }
 .hero-btn:hover, .hero-btn:focus {
   box-shadow: -2px 1px 23px 5px rgba(162, 176, 214, 0.77);
+}
+
+.services {
+  padding-top: 110px;
+  padding-bottom: 105px;
 }
 
 .services-title {
@@ -241,4 +245,53 @@ body {
 }
 .services-btn:hover, .services-btn:focus {
   box-shadow: -2px 1px 23px 5px rgba(162, 176, 214, 0.77);
+}
+
+.about {
+  padding-top: 100px;
+}
+
+.about-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-titile {
+  width: 424px;
+  font-family: Montserrat-700, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  color: #323232;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  width: 489px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+  color: #999999;
+  margin-bottom: 30px;
+}
+
+.about-link {
+  font-family: Montserrat-500, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-decoration: underline;
+  color: #4985ff;
+}
+
+.our-projects {
+  display: flex;
+}
+
+.our-projects-item:span {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.47;
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */

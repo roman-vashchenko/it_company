@@ -69,7 +69,7 @@ body {
 .header-wrap {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/hero-bg.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   max-width: 1920px;
   height: 675px;
@@ -175,6 +175,26 @@ body {
   display: flex;
   justify-content: space-around;
   margin-bottom: 55px;
+}
+
+.circle-one {
+  width: 110px;
+  height: 110px;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-two {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #4985ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services-item-subtitle {
